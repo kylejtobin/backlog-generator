@@ -33,14 +33,14 @@ To use the Backlog Generator, you'll need to pipe input JSON data into the `New-
 ```
 
 To use this input data with the `New-Backlog` function, you would save the JSON data to a file (e.g. `input.json`) and then run the following command:
-
+```
 $Token = "your_github_token_here"
 $Owner = "your_github_owner_here"
 $RepoName = "your_github_repo_here"
 $ProjectId = 12345
 $json = Get-Content -Raw input.json | ConvertFrom-Json
 New-Backlog -Token $Token -Owner $Owner -RepoName $RepoName -ProjectId $ProjectId -InputObject $json
-
+```
 
 This will create a milestone with the name "Online Ordering System" and two issues, one for each user story.
 
