@@ -1,6 +1,6 @@
 # Backlog Generator
 
-The Backlog Generator is a PowerShell module that allows you to create GitHub issues and milestones based on input JSON data. This is useful for quickly generating a backlog of issues and milestones for a new project or feature.
+The Backlog Generator is a PowerShell module that allows you to create GitHub issues and milestones based on input JSON data from ChatGPT. This is useful for quickly generating a backlog of issues and milestones for a new project or feature.
 
 ## Usage
 
